@@ -10,51 +10,71 @@
     <header class="block-header">
         <nav class="block-upperMenu"> 
           <div class="block-buttonIcon">
-            <button class="block-buttonIcon__elem-burger"></button>
+            <button class="block_circleButton">
+                <div class="block_circleButton--mod-burger"></div>
+            </button>
           </div>
           <div class="block-upperMenu__elem-mediumDivider"></div>
           <img src="images/cps.svg" width="96" height="50" class="block-upperMenu__elem-imageCPS">
           <div class="block-submune">
             <div class="block-buttonIcon">
-              <button class="block-buttonIcon__elem-call"></button>
+              <button class="block_circleButton">
+                  <div class="block_circleButton--mod-call"></div>
+              </button>
             </div>
             <div class="block-buttonIcon">
-              <button class="block-buttonIcon__elem-chat"></button>
+              <button class="block_circleButton">
+                  <div class="block_circleButton--mod-chat"></div>
+              </button>
             </div>
             <div class="block-buttonIcon">
-              <button class="block-buttonIcon__elem-profile"></button>
+              <button class="block_circleButton">
+                  <div class="block_circleButton--mod-profile"></div>
+              </button>
             </div>
           </div>
           <div class="block-upperMenu__elem-divider"></div>
           <div class="block-buttonIcon">
-            <button class="block-buttonIcon__elem-repair"></button>
+            <button class="block_circleButton">
+                <div class="block_circleButton--mod-repair"></div>
+            </button>
           </div>
           <div class="block-buttonIcon">
-            <button class="block-buttonIcon__elem-checkstatus"></button>
+            <button class="block_circleButton">
+                <div class="block_circleButton--mod-checkstatus"></div>
+            </button>
           </div>
         </nav> 
         <div class="block-titleLine">
           <div class="block-title">
-            <div class="block-title__elem-highlight"></div>
-            <h1 class="block-title__elem-mainText">Услуги и сервисы</h1>
+            <h1 class="block-title__elem-mainText"><span>Услуги и сервисы</span></h1>
           </div>
           <div class="block-services">
-            <button class="block-services__elem-repair">Оставить заявку</button>
-            <button class="block-services__elem-status">Статус ремонта</button>
+            <button class="block-buttonTI">Оставить заявку
+              <div class="block-buttonTI__elem-circleIcon">
+                <div class="block-buttonTI__elem-circleIcon--mod-repair"></div>
+              </div>
+            </button>
+            <button class="block-buttonTI">Статус ремонта
+              <div class="block-buttonTI__elem-circleIcon">
+                <div class="block-buttonTI__elem-circleIcon--mod-status"></div>
+              </div>
+            </button>
           </div>
         </div>
         
-        <div class="block-slideMenu">
-          <button class="block-slideMenu__elem-btn block-slideMenu__elem-btn--mod-activ">Ремонтируемые бренды</button>
-          <button class="block-slideMenu__elem-btn">Ремонтируемые устройства</button>
-          <button class="block-slideMenu__elem-btn">Цены на услуги</button>
-          <button class="block-slideMenu__elem-btn">Адреса сервисных центров</button>
-          <button class="block-slideMenu__elem-btn">Специальные цены</button>
-        </div>
+        <nav class="block-slideMenu">
+          <ul class="block-listMenu">
+            <li class="block-listMenu__elem-link block-listMenu__elem-link--mod-activ"><a href="#">Ремонтируемые бренды</a></li>
+            <li class="block-listMenu__elem-link"><a href="#">Ремонтируемые устройства</a></li>
+            <li class="block-listMenu__elem-link"><a href="#">Цены на услуги</a></li>
+            <li class="block-listMenu__elem-link"><a href="#">Адреса сервисных центров</a></li>
+            <li class="block-listMenu__elem-link"><a href="#">Специальные цены</a></li>
+          </ul>
+        </nav>
           <div class="block-reviews">
             <button class="block-reviews__elem-button">Отзывы</button>
           </div>
-        
     </header>
     <main>
         <article class="block-content">
@@ -70,9 +90,11 @@
               <button class="block-textinformation__elem-buttonNext">Читать далее</button>
             </div>
             <div class="block-image">
-              <img src="images/image.png" alt="" class="block-image__elem-image">
+              <img src="images/image.jpg" alt="" class="block-image__elem-image">
             </div>
         </article>
     </main>
+    
+    
 </body>
 </html>
